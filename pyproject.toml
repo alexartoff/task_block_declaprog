@@ -7,6 +7,7 @@ packages = [{include = "block_declaprog"},]
 
 [tool.poetry.scripts]
 t1-fp = "block_declaprog.scripts.task1_func_proc:main"
+t2-lc = "block_declaprog.scripts.task2_list_comprehensions:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
