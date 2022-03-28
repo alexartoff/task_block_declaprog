@@ -9,6 +9,7 @@ packages = [{include = "block_declaprog"},]
 t1-fp = "block_declaprog.scripts.task1_func_proc:main"
 t2-lc = "block_declaprog.scripts.task2_list_comprehensions:main"
 t3-nul = "block_declaprog.scripts.task3_number_unique_letters:main"
+t4-genexp = "block_declaprog.scripts.task4_genexp:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
